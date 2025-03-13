@@ -72,4 +72,10 @@ end
 gem "erb_lint", "~> 0.9.0", group: :development
 
 gem "ruby-lsp", "~> 0.23.11", group: :development
-gem "solargraph", group: :development
+# gem "solargraph", group: :development
+
+gem "devise", "~> 4.9"
+
+gem "steep", "~> 1.10.pre.1", group: :development
+
+# gem "solargraph-rails", "~> 1.1", group: :development
