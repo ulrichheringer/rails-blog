@@ -79,3 +79,5 @@ gem "devise", "~> 4.9"
 gem "steep", "~> 1.10.pre.1", group: :development
 
 # gem "solargraph-rails", "~> 1.1", group: :development
+
+gem "tailwindcss-rails", "~> 4.2"
