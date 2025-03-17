@@ -76,7 +76,7 @@ gem "ruby-lsp", "~> 0.23.11", group: :development
 
 gem "devise", "~> 4.9"
 
-gem "steep", "~> 1.10.pre.1", group: :development
+gem "steep", "~> 1.10.pre.3", group: :development
 
 # gem "solargraph-rails", "~> 1.1", group: :development
 
