@@ -1,6 +1,9 @@
 class BlogPost < ApplicationRecord
   validates :title, presence: true
-  validates :body, presence: true
+  validates :content, presence: true
+
+  has_one_attached :cover_image
+  has_rich_text :content
 
   scope :sorted, -> { order(created_at: :desc, updated_at: :desc) }
   scope :draft, -> { where(published_at: nil) }
